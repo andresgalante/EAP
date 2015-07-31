@@ -2678,3 +2678,6 @@ body {
 .eap-toggle-controls a:first-child {
   padding-left: 0;
 }
+.eap-toggle-container {
+  margin-bottom: 10px;
+}
