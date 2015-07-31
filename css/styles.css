@@ -2592,7 +2592,7 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 .eap-home-row {
-  padding: 20px;
+  padding: 1.5% 3% ;
   margin-left: -3%;
 }
 .eap-home-row:before,
@@ -2626,9 +2626,14 @@ body {
   margin: 0 0 5px 0;
 }
 .eap-home-module-container ol {
-  margin: 0;
+  margin: 0 0 5px 0;
   padding: 0;
   list-style-position: inside;
+}
+.eap-home-module-container ul {
+  list-style: none;
+  margin: 0 0 5px 0;
+  padding: 0;
 }
 .eap-home-module-header {
   margin-bottom: 20px;
@@ -2640,4 +2645,8 @@ body {
 }
 .eap-home-module-header p {
   margin: 0;
+}
+.eap-home-module-col {
+  float: left;
+  width: 50%;
 }

@@ -47,22 +47,37 @@
           </div><!-- icon -->
           <div class="eap-home-module-container">
             <div class="eap-home-module-header">
-              <h2><a href="#">Deployments</a></h2>
-              <p>Add and manage deployments</p>
+              <h2><a href="#">Configuration</a></h2>
+              <p>Configure your server profiles</p>
             </div><!-- module header -->          
             <p>
-              <a href="#">Create a Deployment</a> | <a href="#">Start</a>
+              <a href="#">Create a Datasource</a> | <a href="#">Start</a>
             </p>
-            <p>Deploy an application and assign it to one or more server groups.</p>
+            <p>Add the datasource to a server profile to make it available to deployed applications.</p>
             <ol>
-              <li>Add a deployment to the Content Repository</li>
-              <li>Select a server group and add the deployment to it</li>
+              <li>Select the target profile</li>
+              <li>Add a new datasource and follow the steps in the wizard</li>
             </ol>
           </div><!-- module container --> 
         </div><!-- module -->  
 
       </div><!-- col -->    
     </div><!-- row -->
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
 
 
 
@@ -75,17 +90,23 @@
           </div><!-- icon -->
           <div class="eap-home-module-container">
             <div class="eap-home-module-header">
-              <h2><a href="#">Deployments</a></h2>
-              <p>Add and manage deployments</p>
+              <h2><a href="#">Runtime</a></h2>
+              <p>Add servers and server groups. Monitor server status</p>
             </div><!-- module header -->          
             <p>
-              <a href="#">Create a Deployment</a> | <a href="#">Start</a>
+              <a href="#">Create a Server Group</a> | <a href="#">Start</a>
             </p>
-            <p>Deploy an application and assign it to one or more server groups.</p>
+            <p>Server groups allow you to apply common management policies and deploy applications to a set of servers at once.</p>
             <ol>
-              <li>Add a deployment to the Content Repository</li>
-              <li>Select a server group and add the deployment to it</li>
+              <li>Browse domain by server groups and add a new group</li>
+              <li>Assign it a profile and socket binding</li>
             </ol>
+            <p>
+              <a href="#">Create a Server</a> | <a href="#">Start</a>
+            </p>
+            <p>
+              <a href="#">Monitor a Server</a> | <a href="#">Start</a>
+            </p>
           </div><!-- module container --> 
         </div><!-- module -->  
       </div><!-- col -->    
@@ -97,16 +118,17 @@
           </div><!-- icon -->
           <div class="eap-home-module-container">
             <div class="eap-home-module-header">
-              <h2><a href="#">Deployments</a></h2>
-              <p>Add and manage deployments</p>
+              <h2><a href="#">Access Control</a></h2>
+              <p>Manage user roles and groups</p>
             </div><!-- module header -->          
             <p>
-              <a href="#">Create a Deployment</a> | <a href="#">Start</a>
+              <a href="#">Assign User Roles</a> | <a href="#">Start</a>
             </p>
-            <p>Deploy an application and assign it to one or more server groups.</p>
+            <p>Assign roles to individual users or user groups to secure access to system resources.</p>
             <ol>
-              <li>Add a deployment to the Content Repository</li>
-              <li>Select a server group and add the deployment to it</li>
+              <li>Add user or group.</li>
+              <li>Enter user or group name and realm</li>
+              <li>Assign one or more roles to that user or group</li>
             </ol>
           </div><!-- module container --> 
         </div><!-- module -->  
@@ -116,6 +138,13 @@
 
 
 
+
+
+
+
+
+
+      
     <div class="eap-home-row">
       <div class="eap-home-col">
 
@@ -125,16 +154,16 @@
           </div><!-- icon -->
           <div class="eap-home-module-container">
             <div class="eap-home-module-header">
-              <h2><a href="#">Deployments</a></h2>
-              <p>Add and manage deployments</p>
+              <h2><a href="#">Patching</a></h2>
+              <p>Manage patches</p>
             </div><!-- module header -->          
             <p>
-              <a href="#">Create a Deployment</a> | <a href="#">Start</a>
+              <a href="#">Apply a Patch</a> | <a href="#">Start</a>
             </p>
-            <p>Deploy an application and assign it to one or more server groups.</p>
+            <p>Update a selected host to the latest patch level. The patch file must be downloaded to your local machine prior to starting this process.</p>
             <ol>
-              <li>Add a deployment to the Content Repository</li>
-              <li>Select a server group and add the deployment to it</li>
+              <li>Select target host</li>
+              <li>Select Patch Management</li>
             </ol>
           </div><!-- module container --> 
         </div><!-- module -->  
@@ -147,23 +176,38 @@
           </div><!-- icon -->
           <div class="eap-home-module-container">
             <div class="eap-home-module-header">
-              <h2><a href="#">Deployments</a></h2>
-              <p>Add and manage deployments</p>
-            </div><!-- module header -->          
-            <p>
-              <a href="#">Create a Deployment</a> | <a href="#">Start</a>
-            </p>
-            <p>Deploy an application and assign it to one or more server groups.</p>
-            <ol>
-              <li>Add a deployment to the Content Repository</li>
-              <li>Select a server group and add the deployment to it</li>
-            </ol>
+              <h2>Need Help?</h2>
+              <p></p>
+            </div><!-- module header -->    
+
+            <div class="eap-home-module-col">
+              <p>General Resources</p>
+              <ul>
+                <li><a href="#">WildFly Home</a></li>
+                <li><a href="#">WildFly Documentation</a></li>
+                <li><a href="#">Admin Guide</a></li>
+                <li><a href="#">Model Reference Documentation</a></li>
+                <li><a href="#">Browse Issues</a></li>
+                <li><a href="#">Latest News</a></li>
+              </ul>
+            </div><!-- inner col -->
+            <div class="eap-home-module-col">
+              <p>Get Help</p>
+              <ul>
+                <li><a href="#">Access Tutorials and Quickstarts</a></li>
+                <li><a href="#">User Forms</a></li>
+                <li><a href="#">IRS</a></li>
+                <li><a href="#">Developers Mailing List</a></li>
+                <li><a href="#">Developers Mailing List_2</a></li>
+                <li><a href="#">View More</a></li>
+              </ul>
+            </div><!-- inner col -->
+
           </div><!-- module container --> 
         </div><!-- module -->  
 
       </div><!-- col -->    
     </div><!-- row -->
-
 
     
     </div>    
