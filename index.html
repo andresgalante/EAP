@@ -19,6 +19,12 @@
       
       
     <div class="eap-home-row">
+      
+      <div class="eap-home-title">
+        <p>New to EAP7? <a href="#">Take a Tour</a></p>
+        <h1>Red Hat Jboss Enterprise Application Platform</h1>
+      </div><!-- header -->
+      
       <div class="eap-home-col">
 
         <div class="eap-home-module">
@@ -30,14 +36,20 @@
               <h2><a href="#">Deployments</a></h2>
               <p>Add and manage deployments</p>
             </div><!-- module header -->          
-            <p>
-              <a href="#"><i class="fa fa-angle-down"></i> Create a Deployment</a> | <a href="#">Start <i class="fa fa-arrow-circle-right"></i></a>
-            </p>
-            <p>Deploy an application and assign it to one or more server groups.</p>
-            <ol>
-              <li>Add a deployment to the Content Repository</li>
-              <li>Select a server group and add the deployment to it</li>
-            </ol>
+            
+            <div class="eap-toggle-controls">
+              <a href="#"><i class="fa fa-angle-down"></i> Create a Deployment</a>
+              <a href="#">Start <i class="fa fa-arrow-circle-right"></i></a>
+            </div>
+            
+            <div class="eap-toggle-container">
+              <p>Deploy an application and assign it to one or more server groups.</p>
+              <ol>
+                <li>Add a deployment to the Content Repository</li>
+                <li>Select a server group and add the deployment to it</li>
+              </ol>
+            </div><!-- toggle container -->
+            
           </div><!-- module container --> 
         </div><!-- module -->  
       </div><!-- col -->    
@@ -52,14 +64,19 @@
               <h2><a href="#">Configuration</a></h2>
               <p>Configure your server profiles</p>
             </div><!-- module header -->          
-            <p>
-              <a href="#"><i class="fa fa-angle-down"></i> Create a Datasource</a> | <a href="#">Start <i class="fa fa-arrow-circle-right"></i></a>
-            </p>
-            <p>Add the datasource to a server profile to make it available to deployed applications.</p>
-            <ol>
-              <li>Select the target profile</li>
-              <li>Add a new datasource and follow the steps in the wizard</li>
-            </ol>
+            <div class="eap-toggle-controls">
+              <a href="#"><i class="fa fa-angle-down"></i> Create a Datasource</a>
+              <a href="#">Start <i class="fa fa-arrow-circle-right"></i></a>
+            </div>
+            
+            <div class="eap-toggle-container">
+              <p>Add the datasource to a server profile to make it available to deployed applications.</p>
+              <ol>
+                <li>Select the target profile</li>
+                <li>Add a new datasource and follow the steps in the wizard</li>
+              </ol>
+            </div><!-- toggle container -->
+
           </div><!-- module container --> 
         </div><!-- module -->  
 
@@ -78,20 +95,27 @@
               <h2><a href="#">Runtime</a></h2>
               <p>Add servers and server groups. Monitor server status</p>
             </div><!-- module header -->          
-            <p>
-              <a href="#"><i class="fa fa-angle-down"></i> Create a Server Group</a> | <a href="#">Start <i class="fa fa-arrow-circle-right"></i></a>
-            </p>
+            <div class="eap-toggle-controls">
+              <a href="#"><i class="fa fa-angle-down"></i> Create a Server Group</a>
+              <a href="#">Start <i class="fa fa-arrow-circle-right"></i></a>
+            </div>
+            <div class="eap-toggle-container">
             <p>Server groups allow you to apply common management policies and deploy applications to a set of servers at once.</p>
             <ol>
               <li>Browse domain by server groups and add a new group</li>
               <li>Assign it a profile and socket binding</li>
             </ol>
-            <p>
-              <a href="#"><i class="fa fa-angle-down"></i> Create a Server</a> | <a href="#">Start <i class="fa fa-arrow-circle-right"></i></a>
-            </p>
-            <p>
-              <a href="#"><i class="fa fa-angle-down"></i> Monitor a Server</a> | <a href="#">Start <i class="fa fa-arrow-circle-right"></i></a>
-            </p>
+            </div><!-- toggle container -->
+            
+            
+            <div class="eap-toggle-controls">
+              <a href="#"><i class="fa fa-angle-down"></i> Create a Server</a>
+              <a href="#">Start <i class="fa fa-arrow-circle-right"></i></a>
+            </div>
+            <div class="eap-toggle-controls">
+              <a href="#"><i class="fa fa-angle-down"></i> Monitor a Server</a>
+              <a href="#">Start <i class="fa fa-arrow-circle-right"></i></a>
+            </div>
           </div><!-- module container --> 
         </div><!-- module -->  
       </div><!-- col -->    
@@ -106,15 +130,18 @@
               <h2><a href="#">Access Control</a></h2>
               <p>Manage user roles and groups</p>
             </div><!-- module header -->          
-            <p>
-              <a href="#"><i class="fa fa-angle-down"></i> Assign User Roles</a> | <a href="#">Start <i class="fa fa-arrow-circle-right"></i></a>
-            </p>
-            <p>Assign roles to individual users or user groups to secure access to system resources.</p>
-            <ol>
-              <li>Add user or group.</li>
-              <li>Enter user or group name and realm</li>
-              <li>Assign one or more roles to that user or group</li>
-            </ol>
+            <div class="eap-toggle-controls">
+              <a href="#"><i class="fa fa-angle-down"></i> Assign User Roles</a>
+              <a href="#">Start <i class="fa fa-arrow-circle-right"></i></a>
+            </div>
+            <div class="eap-toggle-controls">
+              <p>Assign roles to individual users or user groups to secure access to system resources.</p>
+              <ol>
+                <li>Add user or group.</li>
+                <li>Enter user or group name and realm</li>
+                <li>Assign one or more roles to that user or group</li>
+              </ol>
+            </div>
           </div><!-- module container --> 
         </div><!-- module -->  
 
@@ -133,14 +160,17 @@
               <h2><a href="#">Patching</a></h2>
               <p>Manage patches</p>
             </div><!-- module header -->          
-            <p>
-              <a href="#"><i class="fa fa-angle-down"></i> Apply a Patch</a> | <a href="#">Start <i class="fa fa-arrow-circle-right"></i></a>
-            </p>
-            <p>Update a selected host to the latest patch level. The patch file must be downloaded to your local machine prior to starting this process.</p>
-            <ol>
-              <li>Select target host</li>
-              <li>Select Patch Management</li>
-            </ol>
+            <div class="eap-toggle-controls">
+              <a href="#"><i class="fa fa-angle-down"></i> Apply a Patch</a>
+              <a href="#">Start <i class="fa fa-arrow-circle-right"></i></a>
+            </div>
+            <div class="eap-toggle-controls">
+              <p>Update a selected host to the latest patch level. The patch file must be downloaded to your local machine prior to starting this process.</p>
+              <ol>
+                <li>Select target host</li>
+                <li>Select Patch Management</li>
+              </ol>
+            </div>
           </div><!-- module container --> 
         </div><!-- module -->  
       </div><!-- col -->    

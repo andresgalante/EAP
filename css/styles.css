@@ -2594,6 +2594,7 @@ body {
 .eap-home-row {
   padding: 1.5% 3% ;
   margin-left: -3%;
+  line-height: 1.5;
 }
 .eap-home-row:before,
 .eap-home-row:after {
@@ -2607,6 +2608,15 @@ body {
   float: left;
   width: 47%;
   margin-left: 3%;
+}
+.eap-home-title {
+  margin: 0 3% 3% 3%;
+}
+.eap-home-title h1 {
+  font-weight: 300;
+}
+.eap-home-title p {
+  float: right;
 }
 .eap-home-module:before,
 .eap-home-module:after {
@@ -2653,4 +2663,18 @@ body {
 .eap-home-module-col {
   float: left;
   width: 50%;
+}
+.eap-toggle-controls {
+  margin-bottom: 10px;
+}
+.eap-toggle-controls a {
+  display: inline-block;
+  padding: 0 20px;
+  border-right: 1px solid #ccc;
+}
+.eap-toggle-controls a:last-child {
+  border: none;
+}
+.eap-toggle-controls a:first-child {
+  padding-left: 0;
 }
